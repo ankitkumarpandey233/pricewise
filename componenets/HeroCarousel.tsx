@@ -11,14 +11,15 @@ const heroImages = [
   { imgUrl: '/assets/images/hero-4.svg', alt: 'air fryer'},
   { imgUrl: '/assets/images/hero-5.svg', alt: 'chair'},
 ]
+
 const HeroCarousel = () => {
   return (
     <div className="hero-carousel">
       <Carousel
         showThumbs={false}
-        // autoPlay
+        autoPlay
         infiniteLoop
-        // interval={2000}
+        interval={2000}
         showArrows={false}
         showStatus={false}
       >
